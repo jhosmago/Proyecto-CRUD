@@ -1,0 +1,13 @@
+select LogisticaMaritima
+ 
+if (Cantidad_del_producto >10){
+	precio_envio -= (Precio_envió * 0.05)
+	}
+else {precio_envio}
+
+select LogisticaTerrestre
+ 
+if (Cantidad_del_producto >10){
+	precio_envio -= (Precio_envió * 0.03)
+	}
+else {precio_envio}
